@@ -1,0 +1,26 @@
+/* {
+    close: 'fa-times',
+    prev: 'fa-chevron-left',
+    next: 'fa-chevron-right',
+    prevYear: 'fa-angle-double-left',
+    nextYear: 'fa-angle-double-right'
+  } */
+
+  .fc-content{
+    overflow: auto !important
+  }
+
+  .fc-today {
+    background-color : white !important
+  }
+
+
+  .fc-today .fc-day-number {
+    background-color:#2196f3;
+    color: white;
+    border-radius: 20%; 
+    padding: 5px;
+    margin: 5px;
+  }
+
+  
