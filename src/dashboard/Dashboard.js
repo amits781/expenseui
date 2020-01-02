@@ -128,7 +128,7 @@ function MediaCard(props) {
 
 
   async function fetchSplitWiseDetails() {
-    const resp = await fetch(`${window.apiUrl}/splitwise/get`, {
+    const resp = await fetch(`${window.apiUrl}/get-splitwise`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
