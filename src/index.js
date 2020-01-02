@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { Route, Switch } from "react-router-dom";
 import Dashboard from './dashboard/Dashboard';
 
-window.apiUrl = "http://splitwise.us-east-1.elasticbeanstalk.com";
+window.apiUrl = "https://tgcbbq37cc.execute-api.us-east-1.amazonaws.com/dev";
 //window.apiUrl = "http://localhost:8080";
 
 
